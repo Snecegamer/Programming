@@ -11,13 +11,14 @@ int main() {
     scanf("%d", &numeros[i]);
   }
   //verificação se o valor é par ou impar
-  for (int i = 1; i < TamMax; i++) {
+  for (int i = 0; i < TamMax; i++) {
     if (numeros[i] % 2 == 0) {
       par += 1;
     }
     else if (numeros[i] % 2 != 0) {
       impar += 1;
     }
+   }
   //mostra dos valores do vetor
   printf("Dos valores\n");
   for (int i = 0; i < TamMax; i++) {
@@ -28,5 +29,3 @@ int main() {
 
   return 0;
 }
-
-//Copyright (c) 2026 Matheus Fernandes Salomão. All Rights Reserved.
